@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+@layer components {
+ .card {
+     @apply rounded-xl bg-slate-200;
+  }
+}
